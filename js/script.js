@@ -5,7 +5,9 @@ const {
 createApp({
     data(){
         return{
-            message: 'Benvenuto in Vuejs!'
+            message: 'Benvenuto in Vuejs!',
+            image: './img/logovue.png'
         }
     }
 }).mount('#text')
+
